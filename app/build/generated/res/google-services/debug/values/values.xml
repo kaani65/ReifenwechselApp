@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">419243520094-p8r90fmrcsdi6790utkrnc4odsi8ml03.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://reifenwechselapp-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">419243520094</string>
+    <string name="google_api_key" translatable="false">AIzaSyBB4kcySWAbK45XoCGZ9hyFS4RaiHZc4Fg</string>
+    <string name="google_app_id" translatable="false">1:419243520094:android:1b3611813e3eb6797884cf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBB4kcySWAbK45XoCGZ9hyFS4RaiHZc4Fg</string>
+    <string name="google_storage_bucket" translatable="false">reifenwechselapp.appspot.com</string>
+    <string name="project_id" translatable="false">reifenwechselapp</string>
+</resources>

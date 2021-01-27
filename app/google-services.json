@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "419243520094",
+    "firebase_url": "https://reifenwechselapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "reifenwechselapp",
+    "storage_bucket": "reifenwechselapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419243520094:android:1b3611813e3eb6797884cf",
+        "android_client_info": {
+          "package_name": "com.example.reifenwechselapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419243520094-p8r90fmrcsdi6790utkrnc4odsi8ml03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB4kcySWAbK45XoCGZ9hyFS4RaiHZc4Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419243520094-p8r90fmrcsdi6790utkrnc4odsi8ml03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

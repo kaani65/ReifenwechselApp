@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <EditText
+        android:id="@+id/editTextTextNachname"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextVorname" />
+
+    <EditText
+        android:id="@+id/editTextModell"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAuto" />
+
+    <EditText
+        android:id="@+id/editTextAuto"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStadt" />
+
+    <EditText
+        android:id="@+id/editTextStadt"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPlz" />
+
+    <EditText
+        android:id="@+id/editTextStrasse"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNachname" />
+
+    <EditText
+    android:id="@+id/editTextVorname"
+        android:layout_width="248dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformationen" />
+
+    <EditText
+        android:id="@+id/editTextPlz"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStrasse" />
+
+    <TextView
+        android:id="@+id/textViewInformationen"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="27dp"
+        android:text="Persönliche Angaben:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewVorname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewVorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:text="Vorname:"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNachname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformationen" />
+
+    <TextView
+        android:id="@+id/textViewNachname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
+        android:text="Nachname:"
+        app:layout_constraintBottom_toTopOf="@+id/textViewStrasse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVorname" />
+
+    <TextView
+        android:id="@+id/textViewAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="Auto Marke:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStadt" />
+
+    <TextView
+        android:id="@+id/textViewModell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="Modell:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAuto" />
+
+    <TextView
+        android:id="@+id/textViewStadt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="Stadt:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlz" />
+
+    <TextView
+        android:id="@+id/textViewPlz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="PLZ:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStrasse" />
+
+    <TextView
+        android:id="@+id/textViewStrasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="26dp"
+        android:text="Straße Nr.:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNachname" />
+
+    <TextView
+        android:id="@+id/textWeiteres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="Weiteres:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewModell" />
+
+    <TextView
+        android:id="@+id/textViewKalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="5dp"
+        android:text="Termin am: "
+        app:layout_constraintBottom_toTopOf="@+id/editTextVorname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformationen"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewKalender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="5dp"
+        android:text="Termin am: "
+        app:layout_constraintBottom_toTopOf="@+id/editTextVorname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformationen"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonBuchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:text="Buchen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUnterbodenschutz"
+        android:layout_width="146dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+
+        android:text="Unterbodenschutz"
+        app:layout_constraintStart_toEndOf="@+id/textWeiteres"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModell" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAuswuchten"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:text="Auswuchten"
+        app:layout_constraintStart_toEndOf="@+id/textWeiteres"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxUnterbodenschutz" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFrühjahrcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:text="Frühjahr/ Wintercheck"
+        app:layout_constraintStart_toEndOf="@+id/textWeiteres"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAuswuchten" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
